@@ -1,0 +1,3 @@
+### Get movies
+GET http://localhost:3001/movies?type=movie&year=2022&title=Jasmine
+
