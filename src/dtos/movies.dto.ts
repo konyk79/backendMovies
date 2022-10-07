@@ -1,9 +1,8 @@
-/* eslint-disable prettier/prettier */
 import { IsDateString, IsEnum, IsString } from 'class-validator';
 
 export enum MovieType {
   movie = 'movie',
-  series = 'series'
+  series = 'series',
 }
 export class SearchQueryDto {
   @IsEnum(MovieType)
@@ -12,4 +11,17 @@ export class SearchQueryDto {
   year: string;
   @IsString()
   title: string;
+}
+
+export interface MoviesResponse {
+  Response: string;
+  Error?: string;
+  totalResults?: string;
+  Search?: {
+    Title: string;
+    Year: string;
+    imdbID: string;
+    Type: string;
+    Poster: string;
+  }[];
 }
