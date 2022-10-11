@@ -23,8 +23,33 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+Assignment
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Your task will be to create a web application that will allow the user to search for any movie
+
+or series. The web application has one page. This page will contain text input (search) and two dropdown inputs (type and year) for filter options.
+
+The results will be displayed when the user writes to the search input or changes type/year
+
+(e. g. live search). Instead of working directly with the OMDb API, lets create a server that will handle requests,
+
+retrieve data from the api, and send it back to the user.
+
+ 
+
+API: OMDb (https://www.omdbapi.com/)
+
+Frontend: React, Bootstrap for styling components
+
+Backend:
+
+● NodeJS
+
+● ExpressJS
+
+ 
+
+Please upload your code on a github and send us a link.
 
 ## Installation
 
